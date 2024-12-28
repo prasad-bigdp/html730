@@ -10,6 +10,7 @@ Eg: function add ()
     let c = a + b;
     console.log(c);
 }
+
   add()
  
 ---> functions can even take parameters such that every time we can use dynamic inputs
