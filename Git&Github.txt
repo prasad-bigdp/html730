@@ -13,4 +13,6 @@ How to start git?
 
    2. git init --> it initiates the git . it is also called working stage.
 
-   3.
+   3. git add . --> it will add all the files and folders into git. so that git will track them . it is called staging area
+
+   4.  git commit -m "message"
