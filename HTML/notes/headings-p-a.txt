@@ -1,0 +1,43 @@
+Headings: HTML provides 6 headings which are by default bold and Each one varies in their size and importance
+<h1>context</h1>
+<h2>context</h2>
+<h3>context</h3>
+<h4>context</h4>
+<h5>context</h5>
+<h6>context</h6>
+
+we can have extensions such as Prettier for code formatting and Material Icon Theme for Each file or folder Icons
+
+All headings sizes are different (in decreasing order). h1 is the highest one with more importance and h6 is the smallest one with low importance. For better SEO, it is recommanded to use one h1 per Page
+
+Paragraph: Paragraphs are used to define normal context. we use 'p' tag for This
+<p>context</p>
+
+lorem is the emmet used for generating dummy paragraphs. lorem10 will generate 10 words paragraph
+
+
+Anchor Tag: anchor is used to link multiple pages or any other links. we use 'a' tag for This
+
+<a href="link">context</a>
+
+  <a href="https://www.google.com">Google</a>
+<!-- anchor tag in new tab-->
+        <a href="https://www.amazon.in/ref=nav_logo" target="_blank"> amazon</a>
+<!-- anchor tag for local links -->
+         <a href="./prasad.html">goto another page</a>
+         <a href="../first/index.html">goto another folder page</a>
+<!-- anchor tag for sending emails-->
+        <a href="mailto:abc@gmail.com">mail me</a>
+<!-- anchor tag for going to dail pad with phone number-->
+        <a href="tel:25525252">call me</a>
+<!-- anchor tag to watsapp -->
+         <a href="https://wa.me/+918179191999"> watsapp me</a>
+<!-- anchor tag to download files-->
+         <a href="./Dinesh_Resume.pdf" download>download resume</a>
+
+
+
+
+
+
+

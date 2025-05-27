@@ -1,0 +1,84 @@
+Lists are used to list out certain items. 
+eg: contact list, attendence list, grocery list,
+In HTML, There are three types of Lists
+  i.ordered list
+  ii. unordered list
+  iii. Definition Lists
+
+  i. ordered Lists: These lists are used  to list the items in an order. These lists used 'ol' tag and each list item will have 'li' tag
+   <ol>
+     <li>item1</li>
+     <li>item2</li>
+     <li>item3</li>
+   </ol>
+  ordered lists will have two attributes such as
+    type: decides the type of order 1 or A or a or i or I. By default numbers will be There
+    start: it will take integer value and will make the start with its respective value
+  <ol type="A" start="15">
+        <li>John</li>
+        <li>Raj</li>
+        <li>Shekhar</li>
+    </ol>
+
+  unordered lists: These lists are used to list the items without any order.
+  we use 'ul' tag for the list and 'li' tag for items
+   <ul>
+        <li>Milk</li>
+        <li>Rice</li>
+        <li>Salt</li>
+    </ul>
+These lists mainly used in navigation menus
+
+Definition Lists: These lists are used to mention certain Definitions or descriptions or time lines etc..,
+It uses 'dl' tag for thw whole list and each item contains 'dt'(Definition Term) and 'dd' (Definition Data)
+
+  <dl>
+     <dt>HTML</dt>
+     <dd>Hypertext Markup Language</dd>
+     <dt>CSS</dt>
+     <dd>Cascading style sheets</dd>
+     <dt>JS</dt>
+     <dd>Javascript</dd>
+  </dl>
+
+Nested Lists: Nested Lists are nothing but lists inside another lists
+  <ul>
+    <li>Books I read :
+        <ol>
+            <li>Secret</li>
+            <li>Wings of Fire</li>
+        </ol>
+    </li>
+    <li>
+        Movies I love :
+        <ul>
+            <li>RRR</li>
+            <li>Salaar</li>
+        </ul>
+    </li>
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

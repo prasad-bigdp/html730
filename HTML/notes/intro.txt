@@ -1,0 +1,79 @@
+Requirements: browser , code editor(visual studio code)
+why vscode?
+VScode is free , light weight and open source code editor. It has huge community of developers. it have active plugins called extensions. It is developed and maintained by microsoft
+step 1: Goto https://code.visualstudio.com/download and download for your OS.
+step 2: Install the VScode
+step 3: open vscode-->file-->open folder --> create folder and files
+step4: Goto Extensions and search live server by ritwik dey and install
+
+
+HTML (HyperText Markup Language) : it is used to create the structure or skeleton of the web page. 
+In HTML Everything is made by Tags. Any Information of Presentation layer passed as a Tags. Tags are basically two types
+ i. open tag  (<tagname>)   ii. close tag (</tagname>)
+ Whole HTML code will be between HTML open and close tags.
+ <html>
+ </html>
+ open tag+content+close tag is called element.
+ Html contains two elements head and body
+head represents meta data
+body represents actual content of website
+
+sample code:
+<html>
+    <head>
+      <title>My First Website</title>
+    </head>
+    <body>
+        Hello world
+    </body>
+</html>
+VScode provides some shortcuts called emmets
+emmet for basic HTML code is !+enter (or) html:5+enter
+HTML is not case sensitive and HTML is not a programming Language
+comments:
+   comments are used to describe the code and for the readability of code to developers. comments doesn't effect actual code
+   In HTML, comments are between <!--  and -->
+
+Every element will have some properties called attributes. These attributes will have values .
+eg: <human name="prasad"></human>
+
+<!DOCTYPE html>  <!-- This line represents following document is HTML type  -->
+<html lang="en"> <!-- HTML open tag with attribute lang of value "en"-->
+<head>   <!-- head opening tag -->
+  <meta charset="UTF-8"><!-- it represents our code follows character set of unicode transmission format with 8 bits-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- it represents our viewport having initial zoom 100% and width based on device width-->
+  <title>Document</title> <!-- title represents title of website which comes on tab section-->
+</head>  <!-- head closing tag-->
+<body>  <!-- body opening tag -->
+HEllo World
+</body>  <!-- body closing tag-->
+</html>  <!-- HTML closing tag-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

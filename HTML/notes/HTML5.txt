@@ -1,0 +1,12 @@
+HTML5 provides lot of new features such as 
+  semantic elements
+  media elements like video,audo,track,picture
+  svg(scalable vector graphics):
+  it is used to create beautiful graphical shapes in HTML
+   <svg>
+        <circle cx="100" cy="100" r="50" fill="blue"></circle>
+   </svg>
+   canvas:
+   data attributes:
+   drag n drop:
+   These elements will be explained in JS

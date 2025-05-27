@@ -1,0 +1,18 @@
+Internet Fundamentals
+Figma UI & UX
+HTML
+-----
+   Introduction
+   headings, p , a, img
+   Formatting Tags
+   Lists
+   Tables
+   Block vs inline
+   semantic elements
+   icons, symbol codes
+   media
+   forms
+   form validation
+   HTML5
+**GIT & GITHUB**
+   

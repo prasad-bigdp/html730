@@ -1,0 +1,10 @@
+Classes and Id's: class and id are the attributes for HTML elemenents which are used to identify the element.
+<h1>Hello world</h1>
+class is the general attribute used to identify an element. Multiple elements may have same class name and single element may have multiple class names
+
+   <p class="chitti bujji">Hii</p>
+   <p class="chitti">Bye</p>
+
+Id is the attribute used to identify element uniquely. single element should contain single id and no other element will have same id
+   <p id="para1">Hii</p>
+   <p id="para2">Bye</p>

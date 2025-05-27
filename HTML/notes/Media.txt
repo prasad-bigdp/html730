@@ -1,0 +1,50 @@
+Media:
+HTML5 Provides different media tags such as video, audio, iframe, picture etc..,
+audio: audio tag is used to keep audio in web pages such as mp3 files. Audio tag used source tag to contain the path of audio it needs to load
+  <audio controls autoplay muted>
+        <source src="./sampleaudio.mp3" />
+     </audio>
+controls is mandatory to show the control of track
+autoplay makes the file play automatically when web page loaded
+muted makes the audio mute on page load
+loop makes the audio repeats again and again
+Most supported formats are mp3, wav and OGG
+
+video:
+  video tag is used to display videos in web pages such as mp4 files. Video tag uses source tag to contain the path of video it need to load
+  <video controls autoplay muted loop height="200">
+        <source src="./large.mp4">
+     </video>
+ all attributes are similar to audio tag and most supported formats are mp4, mov, 3gp 
+
+ sometimes your video needs captions, you can use 'track' tag to add captions
+Tack specifies a text track for a media element such as subtitles, captions etc..,
+
+        <track srclang="en" src="./captions.vtt" kind="captions" label="English"></track>
+
+Picture: picture tag is used to display responsive images in a web page like different images for different screens.
+it uses source tag with srcset to contain paths of differnt size images.
+Default images should use img tag at last
+all images should be of decreasing order of screen sizes
+  <picture>
+        <source media="(min-width:1024px)" srcset="https://i.pinimg.com/736x/67/6e/cb/676ecb6b2285efc0fd531383c8567a26.jpg">
+        <source media="(min-width:768px)" srcset="https://upload.wikimedia.org/wikipedia/en/b/bd/Doraemon_character.png">
+        <img src="https://storytoys.com/wp-content/uploads/2021/09/LearnToDraw_MickeyMouse_Header.jpg" height="200" alt="mickey mouse">
+    </picture>
+
+Iframe: Iframe element allows you to embed another HTML document within a frame
+   src --  specifies URL of the embedded document
+   frameborder -- specifies border style of frame ( 0 for no border and 1 for border)
+   width and height -- specifies width and height of the document frame
+   scrolling -- specifies whether iframes should have scrolling or not (yes or no or auto)
+   
+
+
+
+
+
+
+
+
+
+

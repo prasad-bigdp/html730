@@ -1,0 +1,54 @@
+Images:
+========
+    To show the images we use 'img' tag. It contains two attributes 'src' and 'alt'
+    src  -- it contains source path of the image
+    alt -- it contains alternate title which will print when src value is not working
+    we can even adjust size of the image using height and width attributes
+    eg: <img src="path" alt="title" >  (or)
+        <img src="path" alt="title" />
+
+    'img' is a self closing tag. some elements or tags doesn't need to be closed. it will have only open tags. These are called self closing tags or void elements or unpaired tags
+
+  for local images use relative path,
+     single dot -- current folder
+     double dot -- previous folder
+
+formatting Tags : These tags are used to format the text. 
+They are:
+   b - it is used to make the text bold
+   strong - it is also used to make the text bold but search engines prefer this as better understanding
+   i - it is used to make the text italic
+   em - it is also used to make the text italic but search engines prefers this
+   u - it is used to make the text underlined
+   ins - it represents inserted text but it will make text as underlined
+   s - it is used to make the text strike out
+   del - it is used to make the text strike out but search engines assumes this as deleted text
+   q - it is used to make the text have quotations
+   sub - it is used to keep the text as subscript
+   sup - it is used to keep the text as superscript
+   mark - it is used to highlight the text like a marker
+   br - it is used to break into new line
+   hr - it is used to inserted a horizontal line
+   Note: br and hr are self closing tags
+   code - it is used to keep all the coding related text
+   pre - it is used to present text as preformatted(including spaces)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <!-- <form action="main.py" method="get">
+        <div>
+            <label for="na">Name:*</label>
+            <input type="text" id="na" value="prasad" readonly name="na" required minlength="6" maxlength="10">
+        </div><br>
+        <div>
+            <label for="age">Age:*</label>
+            <input type="number" id="age" name="age" required min="18" max="50">
+        </div> <br>
+        <div>
+            <label for="dis">disabilities</label>
+            <input type="text" name="x" value="y" disabled>
+        </div>
+        <div>
+            <label for="num">Phone number:</label>
+            <select name="numprefix" readonly>
+                <option value="+91" >+91</option>
+            </select>
+            <input type="number" id="num">
+        </div>
+        <button type="submit">submit</button>
+    </form>
+    <p>All * symbols are required</p> -->
+   <form action="main.java">
+    <input type="text" placeholder="Enter name" name="name" pattern="[A-Za-z0-9]{,3}">
+    <input type="number" name="" id="" pattern="[0-9]{10}">
+    <input type="email" placeholder="enter email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+\.[A-Za-z]{2,}">
+    <button type="submit">submit</button>
+   </form>
+</body>
+</html>

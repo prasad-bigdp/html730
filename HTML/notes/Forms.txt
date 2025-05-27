@@ -1,0 +1,113 @@
+Forms: Forms are used to collect data from the user.
+eg: login, registration,feedback , application, subscription,contact, enquiry, payments, captcha , search , leads etc..,
+Forms in HTML uses 'form' element.For a Functional Form, we need inputs, buttons and validations.
+Input : input is a self closing which contains following attributes
+  type: defines the type of the input element (based on data it receives)
+  placeholder : defines the dummy text the input holds until user enters the value.
+  value : defines the value of input element. usually user enters it but sometimes we can prefill it 
+  id: used to identify the element the element uniquely
+  name : defines the name the input element carries when its value is submitted
+ 
+ <input type="text" placeholder="Enter your name" id="na" name="nam">
+
+  label : it is used to make the user understand what kind of data needs to be entered in input
+  label contains 'for' attribute which needs to connected with the input using input id.
+  <label for="na">Enter name:</label> 
+  <input type="text" placeholder="Enter your name" id="na" name="nam">
+
+  Button is used to make user clickable actions . it contains different types such as
+   type="button"   -- general button
+   type="submit"   -- submitting the form
+   type="reset"    -- resetting the form
+
+form contains attributes such as
+   action -- it contains path/file to which the submitted data will go
+   method -- GET -- default way of sending the data and the data will be visible in URL
+          -- POST -- secure way of sending the data and data will not be shown in URL
+
+different types of Inputs:
+   1. text -- it is used to enter textual data such as usernames, first and last names etc..,
+   2. email -- it is used to enter emails . By default it won't accept without @
+   3. password -- it is used to enter secret data such as passwords, keys, financial data . 
+   4. number -- it is used to enter only numbers like age, phone number etc..,
+   5. date -- it is used to select specific date like booking apps etc..,
+   6. time -- it is used to select specific time like alarms, countdowns, slots etc..,
+   7. datetime-local -- it is used to select date and time together like booking slots,detailed DOB etc..,
+   8. color -- it is used to select specific color like drawing boards etc..,
+   9. hidden -- it is used to make the input hide with a value. when form is submitted, this data also gets submitted without user's knowledge
+   10. file -- it is used to accept/upload files like resume, images etc..,
+       it has an attribute 'accept' to accept specific type 
+   11. url -- it is used to select /enter specific URL. eg: social media links
+   12. search -- it is used to select/enter searchable terms. It submits the form on enter.
+   13. button/submit/reset : These are similiar to buttons of specific type.
+   14. textarea: it is used to accept heavy informations or multiple rows of data
+       we can control width and height of textarea using cols and rows attribute
+    15. radio : it is used to accept single choice. by default checked option will select it . 
+    All the radio inputs of similar purpose should have same name. radio buttons can be triggered by label
+    16.. checkbox :it is used to accept multiple choices. By default checked option will select it. All the checkboxes of similar purpose should have same name. These are also triggered by label
+    17. Dropdowns:
+       These are used to select single or multiple choices from large set of choices.
+       They use 'select' element. it contains childern element like 'option' with value.
+
+       All options can be combined using optgroup
+       , it can havel label attribute with a value
+
+       multiple flag is used to select multiple choices and size defines the size of select box
+
+Form Validation:
+   Forms can be validated in html using simple attributes such as 
+   required: it is used to make the input field mandatory
+   readonly : it is used to make the input field only readable. it cannot be modified but it's will value will be submitted
+   disabled : it is used to make the input disabled. it cannot be changed or submitted
+   min/max : it is used to enter the input that has range with min or max value. it will accept values of only that range
+   minlength/maxlength : it is used to specify minimum or maximum number of characters we can use in a text 
+   pattern: patterns are used to enter specific regular expressions
+   Regular expressions are strings that are used to validate certain pattern in a string. it uses wide range of symbols that specifies certain meaning
+      [] -- it is used to specify a group 
+         --[abc] -->a or b or c
+         --[a-z] --> anything from lowercase alphabets
+         --[A-Za-z0-9] --> any character uppercase or lowercase or digit
+      {} -- it is used to specify a range
+         --{3} --> exactly 3 characters
+         --{3,} --> atleast 3 characters
+         --{,3} --> upto 3 characters
+         --{3,8} --> from 3 to 8 characters
+
+      \w -- words , \s -- space , \d -- digits
+      * -- zero or more
+        -->ab* -- a , ab,abb,abbb,
+      + -- one or more
+        -->ab+ -- ab, abb,abbb.......
+      ? -- zero or one
+        -->  ab? -- a, ab,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

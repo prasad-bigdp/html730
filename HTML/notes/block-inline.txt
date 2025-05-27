@@ -1,0 +1,59 @@
+Elements are basically divided as two types
+  i. container Elements
+  ii. non-container Elements
+
+i. container Elements: These elements are usually used to wrap the other elements as a group .  container Elements must have open and close tags
+  Eg: div and span
+
+ii. non-container Elements : These elements are not capable to hold other elements within them. They do not have closing tags
+  Eg: br, hr, img,input
+
+Based on the presentation of elements , There is classification of two types:
+  i. Block elements
+  ii. Inline Elements
+
+i. Block Elements: These container Elements are used to wrap other elements but always present in new line. They won't allow other elements beside them
+  eg: headings, p , lists
+
+  General Block elements used to contain other elements is "div"
+
+ii. Inline Elements : These Elements are used to Wrap the other elements but present in same line. They allow other elements beside them
+
+  eg: img, a, formatting tags
+
+  General Inline elements used to contain other elements in same line is "span"
+
+inline elements cannot have height or width except img. 
+
+semantic Elements: These
+Elements are used to make the code more readable
+to search engines and increase the SEO . it won't show any much difference  to User Interface
+it uses elements such as header, main, footer, section, aside, nav , article, figure etc..,
+  header: it is a block element that represents header code of a website
+  footer : it is a block element that represents footer code of a website
+  main : it is used to wrap all other semantic elements as a main element
+  article : it is used to wrap texts,headings etc.., as a article
+  section : it is used to wrap elements that represents a section like about, contact etc..,
+  nav: it is the semantic element that is used to wrap naviagtion links. it is inline element.
+  aside: it is used to wrap sidebar or side menu contents
+  figure : it is used to capture an image with a caption. it contains image and figcaption
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+

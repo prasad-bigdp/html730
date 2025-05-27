@@ -1,0 +1,42 @@
+Tables are used to represent the data in rows and columns. we can understand any data eaasier way using tables. sometimes, web pages need to use tabular data
+eg: product comparison tables, pricing tables, schedules, results etc..,
+
+Table uses 'table' tag with Each row uses 'tr' tag
+Each row either contains 'th' (table heading) or 'td'(table data)
+
+th will be always centered and bold. td represents general data.
+eg:
+<table border="1">
+        <tr>
+            <th>sno</th>
+            <th>subject name</th>
+            <th>marks</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Telugu</td>
+            <td>98</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Maths</td>
+            <td>37</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>English</td>
+            <td>65</td>
+        </tr>
+    </table>
+
+We can combine rows of a table using rowspan and columns of a table using colspan
+
+ <td colspan="2">Total Marks:</td>
+   <td rowspan="2">65</td>
+
+we can even give captions to the table
+
+we can wrap table elements inside table semantic elements like 
+thead,tbody and tfoot. These elements helps to understand tables well and increase SEO
+
+In olden time, people use tables for website /web page layout

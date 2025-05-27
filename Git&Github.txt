@@ -1,0 +1,16 @@
+GIT:
+  GIT is a distributed version control system. it is developed and maintained by linus torvalds at oracle systems.
+
+download & install git :
+https://git-scm.com/downloads
+
+To check : goto cmd, git -v
+
+How to start git?
+
+
+   1. goto code editor --> open folder -->open terminal --> new terminal --> command prompt
+
+   2. git init --> it initiates the git . it is also called working stage.
+
+   3.
