@@ -15,4 +15,19 @@ How to start git?
 
    3. git add . --> it will add all the files and folders into git. so that git will track them . it is called staging area
 
-   4.  git commit -m "message"
+   4.  git commit -m "message" --> it will save the code into local repository(folder) . it is like final version
+
+   for first time, enter following
+   git config --global user.email "youremailid"
+   git config --global user.name "yourusername"
+
+   repeat 3 & 4
+
+
+   Github is a website which is used to store,share or deploy the codes.it helps people to get the code and collaborate with others
+
+   create a github account and create a repository
+
+   connect repo link in terminal : git remote add origin "link.git"
+
+   push the code : git push -u  origin branchname(main/master)
