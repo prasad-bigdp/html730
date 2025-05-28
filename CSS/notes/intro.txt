@@ -1,0 +1,84 @@
+CSS:
+  css stands for cascading styled sheets. They are used to design, style or layout of webpage. CSS is mainly responsible for UI & UX of web page
+  A good UI & UX maintains
+    --> minimal eye-friendly colors
+    --> suitable fonts
+    --> spacious proper layout/design
+    --> Responsive design
+
+Basic Terminologies:
+  selectors: These are used to select specific elements to apply styling to the elements
+  properties : These are used to modify different stylings of elements
+  values : These are used to assign specific values to the properties of elements
+
+How to include css in HTML?
+There are three ways to include CSS in HTML
+   i. Inline CSS : it is used to assign values to properties of an element using 'style' as a attribute.
+    <element style="properties:values;.....">context</element>
+    eg: <h2 style="background-color: blue;color: white;">Hello world</h2>
+
+    ii. Internal CSS : it is used to assign values to properties of an element using 'style' as an element.
+    <style>
+       selector
+       {
+        properties:value;
+       }
+    </style>
+eg:   <style>
+        h2
+        {
+         background-color: green;
+         color: white;
+        }
+    </style>
+
+  iii. External CSS : it is similar ro internal CSS but we write CSS in separate file with .css extension and link it to html using 'link' tag
+    <link rel="stylesheet" href="css file path" />
+
+
+Always Inline CSS have more preference than internal or external CSS. Always latest style overwrites previous similar style called cascading.
+
+Basic selectors:
+To apply CSS, we need to select elements. for selecting elements , we use different selectors.
+  a. tag name selector: we can select all elements of same tag using tagname
+  b. class name : class is a general attribute to every HTML element. it is used to identify one or group of elements together. one element can have multiple class names and multiple elements can have same class name
+
+  .classname{
+    properties:values;
+  }
+
+  c. id name: is is also general attribute to every HTML element which is used to identify the element uniquely. No two elements will contain same id and no element contain more than one id
+
+  #idname{
+    properties:values;
+  }
+
+
+id > class >tagname
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
