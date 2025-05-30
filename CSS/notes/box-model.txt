@@ -1,0 +1,42 @@
+CSS treats every HTML element as a Box, A box will have
+   --> border
+   --> border-radius
+   --> padding
+   --> margin
+
+Border: Border is the outermost line of an element. We can define border by properties 
+         border-width, border-style,border-color
+we can directly assign border using border: width style color;
+style can be solid/dotted/dashed/groove
+we can also assign specific borders like border-left,border-right etc..,
+
+Border-radius : it is the corner radius that shapes the element
+  border-radius:size;
+we can also assign specific radius like border-top-left-radius etc..,
+
+padding: padding is the gap between border and content of the box
+   padding:size;
+we can give specific sides like padding-left,padding-right etc..,
+  padding: t r b l;
+  padding tb lr;
+When padding increases, box height and width also increases because default box sizing is content box. To fix height and width of box
+  box-sizing:border-box
+
+margin : margin is the gap outside the border between border and other elements
+   border:size;
+we can give specific sides like margin-left,margin-right etc.,
+   margin: t r b l or tb lr;
+   
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,4 +1,28 @@
-h2
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&display=swap');
+body{
+    /* background-color: rgba(123, 2, 85, 0.096); */
+    /* background-color: #fff; */
+    background-color: white;
+}
+@font-face {
+    font-family: prasadHorror;
+    src: url('./Horrors.ttf');
+}
+#box{
+    height: 50px;
+    width: 200px;
+    background-color: red;
+}
+#box2{
+    height: 50vh;
+    width: 50%;
+    background-color: green;
+}
+h2{
+    font-size: 60px;
+    font-family: prasadHorror;
+}
+/* h2
 {
  background-color: rgb(171, 171, 89);
  background-color: green;
@@ -12,4 +36,4 @@ h2
 }
 #bujji{
     background-color: red;
-}
+} */

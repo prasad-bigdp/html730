@@ -1,0 +1,53 @@
+Colors:  colors represents a specific meaning to human subconsious mind called color theroy. In web design, colors represents brand.colors in web design are 5 types i.e., primary, secondary,accent,text,bg
+for a good design primary,seconadry,accent are in ratio of 60:30:10
+
+How to assign color in CSS?
+  --> by name : colors can be assigned directly by name
+  --> by RGB : color can be assigned as a combination red,green,blue from 0 to 255 of value each
+  --> by RGBA : rgb colro can be expressed with alpha ranging from 0.0 to 1.0 showing transparency of color
+  --> by hex code : every color have a hexa decimal code to represent. it is followed by #.
+  -->  by HSL : it stands for hue, saturation, lightness. hue is the degree of color, saturation is % towards darkness, lightness is % towards white
+  we can also assign HSLA where a is alpha.
+
+
+  Fonts : Fonts also represents brand. There are 5 font families. they are
+      serif : serif fonts have stroke at corners of letters, eg: times new roman
+      sans-serif : sans serif fonts does not have stroke at letter corners eg: arial
+      monospace : monospace fonts have same gap between letters and all letters are of same height eg:courier new
+      cursive : cursive fonts mimics hand writing eg:brush script
+      modern/fantasy : decorative and playful fonts used for titles or special effects 
+
+we can give different fonts to our website using 
+   i. google fonts
+   ii. direct font family:
+   iii. 3rd party websites:
+
+
+units:  There are different units to measure properties in CSS. They are
+   
+    px(pixels)-- pixel is the smallest unit of screen. Entire screen divided as pixels. prefered to use small quantities
+    %(percentage) -- percentage is the unit of share of parents properties
+    vh/vw  -- stands for viewport height or viewport width. it represents % of screen size
+    em -- enumerated value -- percentage of parent's font size
+       1em  --> 1*parents font size
+    rem -- root enumerated value -- percentage of body's font size
+       1rem -->1*body font size (default 16px)
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
