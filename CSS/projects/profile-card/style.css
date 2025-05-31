@@ -1,0 +1,48 @@
+* /* universal selector */
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+img{
+    width: 200px;
+}
+body{
+    height: 100vh;
+    background-color: gray;
+}
+#card{
+   max-width: 30vw;
+   margin:20vh auto;
+   background-color: white;
+   padding: 30px 20px;
+   border-radius: 20px;
+   text-align: center;
+   box-shadow: 10px 20px 60px rgb(237, 109, 109);
+}
+p{
+    text-align: justify;
+}
+h2,h3,p,button{
+    margin: 10px 0px;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 20px 0px 20px 0px;
+}
+.fa-brands{
+   margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
