@@ -1,0 +1,9 @@
+Float :  Float is used to make an element float right or left of next element. Float will remove the element from actual flow.
+  float: left/right/none;
+
+when an element is floated, it is removed from the normal document and positioned left or right of the parent element. so the surroundings will just wrap around floated element
+
+clearing the floats : when using float, its necessary to clear the float to prevent elements wrapping around
+   clear:left/right/both
+
+Initially, float is used for multi column layout

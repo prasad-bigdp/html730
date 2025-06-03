@@ -1,0 +1,50 @@
+.myele{
+    height: 50vh;
+    width: 50vw;
+    border: 2px solid red;
+}
+#box{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: relative;
+  left: 100px;
+  top: 200px;
+  bottom:0px;
+}
+
+.boxAbs{
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+    background-color: green; 
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+    border-radius: 50%;
+}
+.first{
+    z-index: 5;
+}
+.second
+{
+    background-color: black;
+    z-index: 6;
+}
+#boxfix{
+    height: 100px;
+    width: 100px;
+    background-color: blue; 
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+}
+#boxsticky{
+    height: 100px;
+    width: 100px;
+    background-color: brown; 
+    position: sticky;
+    inset: 50px 0px;
+    border-radius: 50%;
+}

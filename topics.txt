@@ -21,6 +21,17 @@ CSS
    Introduction
    colors,fonts,units
    box model
+   position
+   float
+   display - inline, block,inline-block,none;
+
+
+
+
+
+
+
+
 
 
 
