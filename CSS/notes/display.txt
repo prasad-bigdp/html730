@@ -1,0 +1,8 @@
+Display:  display property is used to show the element in specific layout
+  block -- displays elements as block elements i.e., always in new line
+  inline -- displays elements as inline elements i.e., continue in same line but height or width won't be considered.
+  inline-block -- displays elements as inline block elements i.e., continue in same line but height & width also considered.
+  none -- it removes the element from actual flow of document
+  (visibility:hidden -- it only hides the element)
+
+FlexBox : Flexbox is used to arrange the elements in single direction either row or column

@@ -1,0 +1,35 @@
+.parent{
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    /* gap: 10px; */
+    /* flex-wrap: wrap;
+    align-content: space-evenly; */
+
+}
+.child{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: green;
+    color: white;
+}
+.child1{
+  /* align-self: end; */
+  flex-grow: 2;
+
+}
+.child2{
+    flex-shrink: 2;
+}
+.child4{
+  flex-grow: 3;
+
+}/*
+.child3{
+    order: -1;
+} */
