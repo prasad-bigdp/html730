@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(221, 100%, 96%);
+    font-family: "Hanken Grotesk", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    display: flex;
+    width: 50vw;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+.left{
+   width: 50%;
+   color: white;
+
+   background: linear-gradient(to bottom, hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   padding: 20px;
+
+}
+.right{
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.marks{
+    display: flex;
+    justify-content: space-between;
+}
+.marks>div{
+  display: flex;
+  gap: 5px;
+}
+
+

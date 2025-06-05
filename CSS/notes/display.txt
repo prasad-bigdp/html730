@@ -6,3 +6,19 @@ Display:  display property is used to show the element in specific layout
   (visibility:hidden -- it only hides the element)
 
 FlexBox : Flexbox is used to arrange the elements in single direction either row or column
+parent properties: 
+   display:flex  -- it arranges all child items into row
+   flex-direction:column -- it arranges all child items into specific direction -- row/column/row-reverse/column-reverse
+   justify-content -- used to move in the main Axis(flex direction) -- start/left/right/end/center/space-around/space-between/space-evenly
+   align-items -- used to move items in cross axis -- start/left/right/end/center
+   flex-wrap  -- used to wrap the items  -- nowrap/wrap/wrap-reverse
+   align-content -- used to move the wrapped lines -- start/left/right/end/center/space-around/space-between/space-evenly
+   gap -- used for gap between the items
+
+Child properties:
+   order  --  defines the order of arrangement of each item. default order is 0.
+   align-self -- moves the element along the cross axis
+   flex-grow -- makes the element grow when space is available
+   flex-shrink -- makes the element shrink when space is not available
+   flex-basis -- width of element to be fixed
+
