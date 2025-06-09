@@ -1,0 +1,49 @@
+.gp+p{
+    color: red;
+}
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+#inp:focus{
+    outline: 5px solid green;
+}
+#box:hover{
+    background-color: blue;
+}
+a:active{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+.child
+{
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+    background-color: green;
+}
+.child:nth-last-child(4){
+    background-color: red;
+}
+.para::first-letter{
+    font-size: 48px;
+    color: red;
+}
+.para::before{
+    content: '\201c';
+}
+.para::after{
+    content: '\201d';
+    font-size: 48px;
+    color: red;
+}
+.para::selection{
+   background-color: green;
+}
+
+
+
+

@@ -1,0 +1,24 @@
+Grid: Grid is used to arrange the child items in rows and columns. Eg: list of products
+Parent Properties:
+  display:grid -- arranges all child items for grid
+  grid-template-columns -- defines width of each column.
+  we can use px, em,rem,vh,vw,% or fr or repeat(n,width)
+  eg: repeat(5,1fr) -- created 5 columns with each of 1/5 width
+  grid-template-rows -- defines height of each row
+  justify-content  -- moves the items along row
+  align-items -- moves the items along column
+  gap: provide gap between items
+
+Child Properties:
+    Grid counts rowlines and column lines for making a certain layout
+    grid-column-start: starting column line
+    grid-column-end : ending column line
+    grid-column: grid-column-start/grid-column-end
+
+    grid-row-start: starting row line
+    grid-row-end: ending row line
+    grid-row: grid-row-start/grid-row-end
+
+    grid-area: row start/column start/row-end/column-end
+
+    order: defines order of arrangement , default order is zero

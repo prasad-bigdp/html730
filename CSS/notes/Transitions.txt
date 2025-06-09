@@ -1,0 +1,7 @@
+Transitions are used to control an element when it is transforming from one state to another state.
+it contains
+   Transition property
+   Transition Duration
+   Transition Timing Function
+   Transition Delay
+

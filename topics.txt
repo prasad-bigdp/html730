@@ -24,6 +24,11 @@ CSS
    position
    float
    display - inline, block,inline-block,none;
+   flex
+   grid
+   Advanced Selectors
+   Transition, animations
+   Media Queries
 
 
 

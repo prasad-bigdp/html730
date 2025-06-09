@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+}
+header{
+    background-color: green;
+    color: white;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    height: 50px;
+}
+.logo{
+    display: flex;
+    gap: 5px;
+    align-items:center
+}
+.logo>p{
+    font-size: 48px;
+}
+.menu{
+    list-style:none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+li>a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+#banner{
+    height: 300px;
+    max-height: 500px;
+    max-width: 1280px;
+    margin:20px auto;
+
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+}
+.child{
+    background-color: rgb(134, 134, 244);
+}
+.child1{
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+.child2{
+   grid-row: 1/2;
+} 
+.child3{
+   grid-row: 2/3;
+}
+.child>img{
+ height: 100%;
+ width: 100%;
+ object-fit: cover;
+}
