@@ -5,3 +5,16 @@ it contains
    Transition Timing Function
    Transition Delay
 
+Transition property: it contains property names that needs to have transition. 'all' covers all properties
+Transition Duration: it defines the time the transition takes (in seconds or milliseconds)
+Transition Timing Function: it defines how the transition should go. There are different functions,popular are:
+   linear: maintains constant growth
+   ease: maintains explosive growth
+   ease-in: starts slowly and gains speed
+   ease-out: starts fastly and becomes slow
+   ease-in-out: starts slowly and becomes fast and ends slowly
+
+
+Animations: Animations are used to show the transition of element between multiple state
+Animations need keyframes to define its each frame. Animations properties are
+Animation name , Animation Duration, Animation Timing Function etc..,

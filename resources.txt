@@ -8,3 +8,7 @@ https://flexboxlabs.netlify.app/
 FlexBox froggy
 https://www.frontendmentor.io/challenges
 cssgridgaden
+https://flukeout.github.io/
+https://www.guess-css.app/
+https://cssbattle.dev/battles
+https://app.spline.design/home

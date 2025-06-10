@@ -1,0 +1,71 @@
+.courage{
+    height: 100px;
+    /* animation:fallingHearts 1s ease infinite;
+    animation-direction: alternate; */
+}
+#wheel{
+    height: 100px;
+    position: absolute;
+    animation: rotateAndMove 3s ease infinite alternate;
+}
+/* @keyframes rotateAndMove{
+   from{
+       
+   }
+   to{
+     transform: translateX(200px) translateY(200px) rotate(720deg);
+   }
+} */
+@keyframes fallingHearts {
+    100%{
+        transform: translateY(500px);
+    }
+}
+.heart2{
+    animation-delay: 0.1s;
+}
+.heart3{
+    animation-delay: 0.2s;
+}
+.heart4{
+    animation-delay: 0.3s;
+}
+
+.heart5{
+    animation-delay: 0.4s;
+}
+.heart6{
+    animation-delay: 0.5s;
+}
+.heart7{
+    animation-delay: 0.6s;
+}
+.heart8{
+    animation-delay: 0.7s;
+}
+ @keyframes rotateAndMove{ 
+    0%{
+      left: 0;
+      top: 0;
+    }
+    25%{
+      left: 80%;
+      top: 0%;
+      transform: rotate(720deg);
+    }
+    50%{
+        left: 80%;
+        top: 80%;
+        transform: rotate(0deg);
+    }
+    75%{
+        left: 0%;
+        top: 80%;
+        transform: rotate(720deg);
+    }
+    100%{
+        left: 50%;
+        top: 50%;
+        transform: rotate(0deg);
+    }
+} 
