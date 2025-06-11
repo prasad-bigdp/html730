@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/*   font-family: "Playfair Display", serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+body{
+    font-size: 16px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    width: max-content;
+    padding: 10px 20px;
+    background-color: rgb(148, 148, 148);
+    border-radius: 20px;
+    position: fixed;
+    top: 10px;
+}
+nav>ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
+ul>li:hover{
+    transform: translateY(-5px);
+}
+a:hover{
+    color: green;
+}
+section{
+    max-width: 1280px;
+    margin:auto;
+}
+#banner{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.leftDiv>h2{
+    font-size: 72px;
+}
+.tagline{
+    font-size: 24px;
+    width: max-content;
+    background-image: linear-gradient(to right,orange,blue);
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+.desc{
+    text-align: justify;
+}
+.buttons>button{
+    padding: 10px 20px;
+}
+.buttons>button:nth-child(1){
+    background-color: black;
+    color: white;
+    border-radius: 20px 0px 20px 0px;
+}
+.buttons>button:nth-child(2){
+    background-color: transparent;
+    border: none;
+}
+.buttons>button:nth-child(2)>a{
+    color: black;
+    text-decoration: 2px solid black underline;
+}
+.rightDiv{
+   border-radius: 50% 50% 0px 0px;
+   
+}
+.rightDiv>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#about{
+    display: flex;
+    width: 100%;
+    gap: 10%;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    gap: 20px;
+}
+.degree{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 15px green;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+#skills>img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+#skills>img:hover{
+    transform: translateY(-5px);
+}
+
+
+
+
+
+/* mobile screen 360-576px */
+@media (max-width:576px){
+  #banner{
+    flex-direction: column;
+    margin-top: 150px;
+    padding: 0px 20px;
+    
+  }
+  a{
+    font-size: 18px;
+  }
+  .leftDiv{
+    align-items: center;
+    gap: 15px;
+  }
+  .leftDiv>h2{
+    font-size: 32px;
+  }
+  .tagline{
+    font-size: 18px;
+  }
+}
+/* mobile landscape 576-768px */
+@media (min-width:576px) and (max-width:768px){
+
+}
+/* tablet screen 769px - 1024px */
+@media (min-width:769px) and (max-width:1024px){
+
+}
+/* desktop,laptops -1025-1280px */
+/*@media (min-width:1025px) and (max-width:1280px){
+
+}*/
