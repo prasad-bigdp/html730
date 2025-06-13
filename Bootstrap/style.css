@@ -1,0 +1,7 @@
+:root{
+    --prasad-color:brown;
+}
+
+.text-bg-primary{
+    background-color: var(--prasad-color) !important;
+}

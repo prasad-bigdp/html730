@@ -1,0 +1,1 @@
+Bootstrap is a CSS component Library. A Library is a pre written code used for specific purpose
