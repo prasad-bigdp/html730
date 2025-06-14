@@ -1,1 +1,44 @@
 Bootstrap is a CSS component Library. A Library is a pre written code used for specific purpose
+How to link Bootstrap 
+   add bootstrap cdn links(css at end of head and js at end of body)
+
+How to use bootstrap?
+    Just provide class names to html elements
+
+most used class names:
+  p -- padding, px- padding x axis, py- padding y axis, pt-padding top,pb- padding bottom, ps-padding start,pe-padding end
+  m -- margin(mx,my,mt,mb,ms,me)
+  h -- height, w -- width
+  border -- border
+  rounded -- border-radius
+  float -- float-start,float-end
+  d -- display(d-block,d-inlin,d-flex....)
+  position -- position-fixed,position-static etc..,
+  container -- kepps content in middle of screen(margin-auto)
+
+Bootstrap Provides 8 colors -- primary, secondary, success, danger, info , warning, dark, light
+
+Bootstrap treats Everyline as row and Every row contains 12 columns
+  div.row 
+       div.col-6
+       div.col-6
+
+Bootstrap also provides breakpoints for responsive layout
+      width            breakpoint
+      <576px           none(mobiles)
+      >=576px            sm
+      >=768px            md
+      >=992px            lg
+      >=1280px           xl
+      >=1440px           xxl
+
+  eg: <div class="p-2 p-sm-1 p-md-3 p-lg-0">Hello</div>    
+
+Bootstrap provides ready made components for faster developement such as
+   accordin, badges, buttons, navbars, modals, carousels , cards etc..,
+
+
+
+
+
+
