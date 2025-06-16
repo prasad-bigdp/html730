@@ -1,0 +1,34 @@
+Javascript:  
+      Javascript is a versatile, dynamic programming language used in both client and server side application for functionality or behaviour of web pages
+      Javascript is synchronous and single threaded language.
+      It was created by Brenden Eich in 1995 , employee of Netscape Communicators. Initially it was used only in Netscape browser but later changed and standardized in 1997 as ECMASCRIPT.
+
+      
+      How to use JS in HTML?
+      There are two ways JS can be used in HTML
+      i. Internal JS : We can include JS code into HTML between 'script' as a element
+      ii. External JS  : we can also include JS as sepearate file and link to HTML using script tag with 'src'
+      <script src="path"></script>
+
+    Every Browser Provides Developer Tools to help the developer for understanding and creating Better Websites.
+    Developer Tools Have 'console' which is used for debugging JS.
+
+    JS is case sensitive language. There are two different types of comments are allowed in JS.
+    single line comments are followed by double slash(//) and multi line comments are followed by /* and ends with */
+
+    Every browser contains an Engine for Javascript called JS engine. it is used to run large js files synchronously. JS Engine for Google Chrome is v8
+
+    what is a variable?
+    variables are used to store and perform operation on data. 
+    In Js, we can declare a variable using var, let or contains
+
+    what is the difference between var,let and const?
+     i. var is used to declare a variable as function scoped. var variables can be redeclared, reassigned and also allowed to use before declaration
+
+     ii. let and const are used to declare a variable as block scoped. let can be reassigned and const cannot. let and const cannot be redeclare or used before declaration
+
+
+
+
+
+
