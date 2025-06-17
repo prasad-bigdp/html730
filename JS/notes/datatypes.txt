@@ -1,0 +1,35 @@
+Datatypes in JS: Javascript is dynamically typed language. The datatype is decided by type of data the variable holds.when value changes, datatype also changes.
+Primarily datatypes are divided as two types
+   i. primitive datatypes
+   ii. Non Primitive Datatypes
+
+i. Primitive Datatypes: These datatypes are used to represent variables that holds single value.Mostly used Primitive types are
+   a. number
+   b. string
+   c. boolean
+   d. null
+   e. undefined
+ii. Non Primitive Datatypes: These datatypes are used to represent variables that holds collection of values. They are
+   a. functions
+   b. Arrays
+   c. objects
+
+To find the datatype of a variable, we can use an operator called 
+"typeof variable_name"
+
+Type conversion: Javascript can convert one datatype into another data type called type conversion or type casting
+     --> Implicit Type casting: JS can automatically converts datatypes based on operations called Implicit Type casting
+     --> Explicit Type Casting : we can convert datatypes using external operators or keywords called Explicit Type casting
+
+     eg:  console.log(5+'5') //55  -- Implicit
+          console.log(5+Number('5')) -- Explicit
+
+Primitive Data Types:
+=====================
+a. Number: number is used to store any numerical values like intergers, decimal etc.., 
+      let a=10.84; // datatype of a is number
+    numbers have default functions like
+   
+
+
+
