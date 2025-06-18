@@ -28,3 +28,78 @@ console.log(Math.ceil(Math.random() * 6))
 
 
 
+
+let str = "The time is 5 o' clock";
+let quote = 'The gandhi said ,"Enjoy your life"'
+console.log(str, typeof str)
+let p = 10, q = 20;
+console.log("the sum of "+p+" and "+q+" is "+(p+q))
+console.log(`The sum of ${p} and ${q} is ${p + q}`)
+let cost = 5, quantity = 10;
+// The total of 10 apples with each cost 5 rupees is 50 rupees
+console.log(`The total of ${quantity} apples with each cost ${cost} rupees is ${cost * quantity} rupees`) //Template literal
+
+//strings have some functions
+str = "javascript";
+console.log(str.toUpperCase()) //JAVASCRIPT
+console.log(str) //javascript because strings are immutable
+console.log(str.toLowerCase())
+console.log(str.startsWith('jav')) //true
+console.log(str.endsWith('jav')) //false
+console.log(str.length) //10
+console.log(str.indexOf('a')) //1
+console.log(str.lastIndexOf('a')) //3
+console.log(str.charAt(2)) //v
+console.log(str.concat(" info")) //javascript info
+console.log(str.replaceAll('a', 'p')) //jpvpscript
+console.log("     prasad      ".trim()) //prasad
+console.log("this is js strings".split(' ')) //["this","is","js","strings"]
+
+// iii. Boolean:
+
+let x = true
+console.log(typeof x)
+
+// undefined and null
+// undefined means accidental absence of value, it means value is defined but not initialised. it expects value in future
+
+let s;
+console.log(s)
+
+// null means intentional absense of value. there is no future value
+
+let z = null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
