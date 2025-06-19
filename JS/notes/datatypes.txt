@@ -57,7 +57,43 @@ ii. strings : strings are used to represent a collection of characters. JS can r
       b. double quotes
       c. backticks
   There is no difference between single or double quotes, but for better readability use any one through out the code
+  backticks : strings can be represented as backticks.it is used to represent dynamic strings. it is also called Template literal. The dynamic values are represented between ${}
+  eg: let x=20;
+  console.log(`The value of x is ${x}`)
+
+  strings also have default Methods such as
+  i. length -- length is used to return total number of characters
+  ii. toUpperCase() -- return uppercase conversion of given string
+  iii. toLowerCase() -- return lowercase conversion of given string
+  iv. startsWith(str) -- checks whether string is starting with str or not
+  v. endssWith(str) -- checks whether string is ending with str or not
+  vi. trim() -- remove leading and ending spaces of given string
+  vii. replace(old,new) -- replace first occurrence of old string with new string
+  viii. replaceAll(old,new) -- replaces all occurrences of old string with new string
+  ix. indexOf(char) -- returns index of first occurrence of given character in string
+  x. lastIndexOf(char) -- returns index of last occurrence of given character in string
+  xii. charAt(index) -- returns character at given index in string
+  xiii. slice(start,end) -- returns sub string from starting index to ending index
+  xiv. split(delimiter) -- returns array of splitted strings based on delimiter
+  xv. concat(str) -- add str string to original string
+
+  Boolean: boolean is used to store true or false. when convert to numerical, true can be 1 and false can be 0
+
+  undefined: undefined is the accidental absence of value. The variable is declared but value is not assigned, it considered it as undefined
+  let a;
+  console.log(a)  //undefined
+  console.log(b)  //not defined -- error
+
+  null : null is the intentional absence of value. 
+  let a = null;
+  console.log(a);
+
   
+
+
+
+
+
 
 
 

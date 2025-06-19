@@ -1,0 +1,35 @@
+Control statements: These statements are used to control the flow of code based on a decision or condition. These are also called Decision Making statements.
+   i. if
+   ii. switch
+
+i. if : if is used to check whether a condition is true or false, if it is true it follows a set of statements, else it follows another set of statements.
+   if(condition){
+    //statements
+   }
+   we can also use if .. else to represent false conditions
+   if(condition){
+    //statements
+   }
+   else{
+    //statements
+   }
+   we can also make latter if else, using if else if
+   if(condition){
+    //statements
+   }
+   else if(condition){
+    //statements
+   }..........
+   else {
+    //statements
+   }
+
+
+ii. switch : swtich is used to connect multiple blocks and need to run only one based on case value
+  switch(value){
+    case value1 : //statements; break;
+    case value2 : //statements; break;
+    case value3 : //statements; break;
+    case value4 : //statements; break;
+    default : //statement;
+  }
