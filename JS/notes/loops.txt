@@ -1,0 +1,83 @@
+Loops are used to iterate a certain number of statements. until a partcular condition fails
+There are two types of loops:
+  i. Entry control loops
+  ii. Exit Control loops
+
+i. Entry control loops: In this loops, the condition is checked before executing the statements, only if the condition is true, the statements will be executed
+Eg: while, for
+
+ii. Exit Control loops: In this loops, the condition is checked after executing the statements, if condition is true it will run statements another time but it won't check first time
+eg: do while
+
+while loop: while is an entry control loop with initialization, condition and updation  as separate lines
+  initialization;
+  while(condition){
+    //statements
+    updation;
+  }
+
+ eg: let x = 25;
+while (x <= 10)
+{
+    console.log(x);
+    x++;
+}
+
+do while: do while is an exit control loop which uses initialization, condition and updation separately
+initialization;
+do {
+  //statements
+  updation;
+}while(condition);
+
+let y = 25;
+do
+{
+    console.log(y);
+    y++;
+}while(y<=10);
+
+for: for is an entry loop which have initialization, condition and updation in single line.
+  for(initialization;condition;updation){
+    //statements
+  }
+  for (let z = 1; z <= 10; z++)
+{
+    console.log(z)
+}
+
+for..of: it is one of variation of for, which is used to iterate array values. it directly takes the values
+  for(let x of array){
+    //statements;
+  }
+
+for..in:This variation of for used to print key/index values of object/array.
+   for(let y in array){
+    //statements
+   }  
+
+
+Nested loop: it is also possible to keep one loop inside another loop called nested loop. 
+  let str=""
+for (let i = 1; i <= 4; i++)
+{
+    str=''
+    for (let j = 1; j <= i; j++)
+    {
+        str = str +" "+ j;
+    }
+    console.log(str)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

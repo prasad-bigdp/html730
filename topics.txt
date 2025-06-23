@@ -37,6 +37,14 @@ GIT & GITHUB Advanced
 
 
 
+Javascript
+==============
+Introduction,
+datatypes
+if,switch
+while,do while, for, for..in,for..of,forEach
+
+
 
 
 
