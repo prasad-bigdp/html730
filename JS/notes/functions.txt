@@ -1,0 +1,117 @@
+functions: functions are used to divide the program into logical individual tasks such that easy to debug and understand the code. Javascript follows modular programming. In JS, function is a first class citizen.
+  function functionname(parameters)  // function prototype
+  {
+       body of function;  // function body
+  }
+  functionname(arguments) // function call
+
+  eg:  function display ()
+{
+    console.log(" this is a simple function")
+}
+display()
+
+  function can have parameters and will be received from function call
+  function add(a,b){
+    console.log(a+b);
+  }
+  add(5,3);
+  here a value will be 5, b value will be 3
+  add(5);
+  here a value will be 5 and b value will be undefined
+  we can also assign default values like
+  function add(a,b=2){
+    console.log(a+b);
+  }
+  add(5);
+  here a value is 5 and default b value is 2
+
+  functions are also treated as variables
+  console.log(add)  -- prints whole add function
+  functions can be represented as function expressions and arrow functions
+  //normal function
+  function add(a,b){
+    console.log(a+b);
+  }
+
+  // function expression
+  let add = function(a,b){
+    console.log(a+b);
+  }
+
+  //arrow function
+  let add = (a,b) =>console.log(a+b)
+  
+  Difference between function , function expression and arrow function
+    function                 function expression           arrow function
+    defines function           defines function            defines function 
+    directly                   as a variable                 as a variable
+
+    function has a name         function will not           function will not
+                               have any name                 have any name
+
+    function keyword              function keyword           function keyword
+    is required                   is required                is not required
+
+    return keyword is            return keyword is           return keyword 
+    needed                       needed                      is not needed  
+                                                             when only one statement in body
+
+
+
+task1 : write a function that converts every alternate letter of given string into uppercase and lowercases and return it.
+eg: Input: "prasad"  ---> "pRaSaD"
+
+task2 : Write a simple calculator function  which can call other functions based on choice
+
+// callback functions
+   callback is a function that is passed as a parameter to another function
+   function functionname1(){
+    //body
+   }
+   function functionname2(a){
+     a();
+   }
+   functionname2(functionname1)
+ here functionname1 is passed as a parameter to another function functionname2. so here functionname1 is called callback function and functionname2 is called higher order function
+
+ function printLength (s)
+{
+    console.log(s.length)
+}
+function sample (fun)
+{
+    fun("prasad") 
+}
+sample(printLength)
+
+
+closures : Javascript has a feature of closures used in techniques like memorization. 
+    closure is the inner function that remembers outer function values even after outer function execution ended
+
+function outer ()
+{
+    let i = 10;
+    function inner ()
+    {
+        console.log(++i)
+    }
+    return inner;
+}
+let res = outer();
+console.log(res)
+res() //11
+res() //12
+
+
+
+
+
+
+
+
+
+
+
+
+

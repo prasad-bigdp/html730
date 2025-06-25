@@ -42,7 +42,9 @@ Javascript
 Introduction,
 datatypes
 if,switch
-while,do while, for, for..in,for..of,forEach
+while,do while, for, for..in,for..of,
+functions
+
 
 
 
