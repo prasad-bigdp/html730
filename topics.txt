@@ -44,7 +44,7 @@ datatypes
 if,switch
 while,do while, for, for..in,for..of,
 functions
-
+Arrays
 
 
 

@@ -1,0 +1,27 @@
+Arrays: Arrays are used to store certain element. it is collection of elements with each element having specific index value starting from 0.
+Arrays are denoted with square beackets
+eg: let arr= ["raj","shekhar",20,true,30]
+here "raj" stored with index 0 and 30 is stored with index 4
+console.log(arr[0])  // raj
+In Js, arrays are dynamic, we can increase array length by giving direct array values
+   arr[20] = 5;
+   now total length of array will become 21 
+   any non initalized value or out of the bound array value will be undefined
+
+Arrays have default methods in JS such as:
+    i. length: length returns total values of array(last index value + 1)
+    ii. push(a,b,c....) : it will add these values at the end of the array. Arrays are mutable. They will change on operation
+    iii. pop() : it removes last value of array and returns it.
+    iv. unshift(a,b,c...): it will add these values at the starting of the array and return new length.
+    v. shift() : it will remove the starting value of array and returns it
+    vi. splice(starting index, delet count ,Inserting values):
+    it is used to delete anywhere or add anywhere. it starts with starting index and delete as delete count and add Inserting values in starting index
+    // Task1 :  let friends = ["sheldon","rachel","Ross","chandler","monica","penny"];
+    // 1. remove sheldon and add phoebe
+    //2. remove penny and add joey
+    // 3. between rachel and ross , add "emma"
+
+
+
+
+
