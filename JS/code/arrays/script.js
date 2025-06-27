@@ -71,6 +71,39 @@ x = arr.filter(function (ele)
 console.log(x)
 
 
+// find
+arr = [10, 20, 30, 40, 50];
+x = arr.find(function (ele, ind)
+{
+    return ele > 30;
+})
+console.log(x)
+
+console.log(arr.includes(30))
+arr = [10, 20, 30, 40, 50]
+x = arr.every(function (ele, ind) {
+	return ele > 0
+})
+console.log(x)
+
+
+
+arr = [20, 30, 50, 10, 5];
+console.log(arr.sort());
+console.log(arr.sort((a, b) => b-a));
+
+arr = [10, 20, 30, 40, 50];
+res=arr.reduce(function (prev,curr)
+{
+    return prev + curr;
+},0)
+console.log(res)
+
+
+
+
+
+
 
 
 

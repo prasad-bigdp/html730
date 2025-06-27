@@ -21,6 +21,51 @@ Arrays have default methods in JS such as:
     //2. remove penny and add joey
     // 3. between rachel and ross , add "emma"
 
+    vii. reverse() : it is used to reverse the array 
+    viii. indexOf(char) : it is used to find character's index in array. it finds only first occurence index. for last occurence index, use lastIndexOf()
+    ix. forEach(callback fn(ele,index))  -- forEach will assign callback functions to each and every element of the array. mostly used to iterate through the array and do some logic
+        forEach cannot return the values
+
+       let arr = [10,20,30,40,50];
+       arr.forEach (function(ele,ind){
+         console.log(ele*ele)    //100   400 900  1600 2500  
+       }) 
+
+    x. map(callback fn(ele,index)) -- map is used to iterate through the array and return some values. it also works similar to forEach
+      map will return every value as of array.
+
+      let arr = [10,20,30,40,50];
+    let res=   arr.map (function(ele,ind){
+         return ele*ele    
+       }) 
+     console.log(res)   //100   400 900  1600 2500  
+
+   xi. filter(callback fn(ele,index))  -- filter is used to iterate through the array and return only the values whose condition is true. it is used for filtering products in ecommerce etc..,
+      let arr = [10,20,30,40,50];
+    let res=   arr.filter (function(ele,ind){
+         return ele>30   
+       }) 
+     console.log(res)   //40 50 
+
+  xii. find(callback fn(ele,index))  -- find returns the first value that satisfies the given condition. for index, we can use findIndex
+  xiii. some(callback fn(ele,index)) -- some returns true if atleast one of the element of array satisfies the given condition.else returns false. Every returns true only if every element satisfies the condition
+  xiv. sort(): sort is used to sort the array alphabetically. we can also use callback function as compare function which follows bubble sort(takes two neighbour values and compare them if result is positive, swap them)
+  
+arr = [20, 30, 50, 10, 5];
+console.log(arr.sort());
+console.log(arr.sort((a, b) => a - b));
+
+ xv. reduce(callback fn(prev,curr),iniital value) -- it will do culumlative approach towards array elements and each time prev value will be updated and returned once array is over
+ 
+arr = [10, 20, 30, 40, 50];
+res=arr.reduce(function (prev,curr)
+{
+    return prev + curr;
+},0)
+console.log(res)  //10+20+30+40+50 = 150
+
+  xvi. includes (search ele) : returns true if search ele is available in array else returns false
+  
 
 
 
