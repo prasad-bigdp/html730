@@ -1,0 +1,39 @@
+Objects: objects are used to store or represent the data in key - value pairs . each key is its attribute and we can get the value using dot notation or index signature of key
+    let obj = {
+         name:"PRASAD",
+         job : "Developer",
+         email :"a@a.com",
+         run: function(){
+            console.log("I'm running")
+         }
+    }
+
+seal and freeze:
+   seal : seal is an object methods that seal the object. it will not allow to add or remove object properties. but we can modify them
+
+   freeze : freeze is an object method that freezes the object. it will not allow to add or remove or modify the object properties.
+
+This keyword : 'this' represents current calling object
+
+operators:
+a = 3, b = 2;
+console.log(a + b, a - b, a * b, a / b, a % b, a ** b) // arithematic
+console.log(a > b && a > 0, a > b || a > 0, !(a > 0)) //logical
+console.log(a > b, a < b, a == b, 2 == '2', 2 === '2', 2 != '2', 2 !== '2');
+// relational
+a=3;
+console.log(++a, a++, --a, a--)  //4  4 4 4 -- incremenet, decrement
+let c = (a > b) ? a : b;  // conditional or ternary operator
+console.log(c); //3
+console.log(2 + +'2')  //4
+console.log(typeof 'prasad') //string
+console.log(a ?? b) //nullish coelsion operator  -- if first value is undeind or null, it will choose second value else first value
+a = 10, b = 5;
+c = a ?? b;
+console.log(c);
+
+
+
+
+
+

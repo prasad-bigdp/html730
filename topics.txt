@@ -39,14 +39,23 @@ GIT & GITHUB Advanced
 
 Javascript
 ==============
-Introduction,
-datatypes
-if,switch
-while,do while, for, for..in,for..of,
-functions
-Arrays
+Introduction (internal , external, developer tools, let,var,const),
+datatypes (primitive -number(math methods), strings( string methods),boolean,undefined,null, non primitive - arrays,functions,objects)
+if,switch (if,if else, if else if, switch, break,default)
+while,do while, for, for..in,for..of, 
+functions (simple function, parameters, default parameters, return keyword, function expression, arrow function, callback, closure)
+Arrays (intro,array methods )
+objects,
+operators
+----
+DOM, events
+----
+ASync JS
+   AJAX, timers, promises, API,JSON,
+   fetch, async await, BOM,libraries,
+   OOP,ES6
 
-
+HTML,CSS,JS Project
 
 
 

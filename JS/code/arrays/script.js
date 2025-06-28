@@ -96,7 +96,7 @@ arr = [10, 20, 30, 40, 50];
 res=arr.reduce(function (prev,curr)
 {
     return prev + curr;
-},0)
+},10000)
 console.log(res)
 
 
