@@ -1,0 +1,27 @@
+DOM:
+-----
+    Every Browser Provides an object to store complete html and css code before presentation called 'document'. it provides a tree like structure to HTML.
+    for eg: 
+    <html>
+       <head>
+         <title>dhjdf</title>
+        </head>
+        <body>
+          <p>hello</p>
+          <h2>Hii</h2>
+        </body>
+    </html>
+    it is treated as tree with html root and head and body as childredn where head have title as children and body have p and h2 as children.
+
+    DOM selection: we can select or access DOM elements using multiple ways such as
+       i. getElementsByTagname('tagname') : it is used to select all elements belongs to a particular tag name.
+
+       ii. getElementsByClassName('classname') : it is used to select all elements belongs to a particular class name
+
+       iii. getElementById('idname') :  it is used to select any element with respective ID.
+
+       iv. querySelector('query): it is used to select an element based on query. but it selects only first element
+
+       v. querySelectorAll('query') : it is used to select all elements based on query
+
+       
