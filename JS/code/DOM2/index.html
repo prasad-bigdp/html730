@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* h1{
+            visibility: hidden;
+        } */
+         @keyframes rotate {
+            100%{
+                transform: rotate(360deg);
+            }
+         }
+         .dark{
+            background-color: black;
+            color: white;
+         }
+    </style> 
+</head>
+<body>
+    <button onclick="dark()" id="btn2">change to dark</button>
+    <h1 id="heading">Hello world</h1>
+    <input type="text" placeholder="Enter your name" id="na">
+    <img src="./blub-off.png" alt="bulb-off" height="200" id="img">
+    <button onclick="change()" id="btn">click me</button>
+    <script src="./script.js"></script>
+</body>
+</html>

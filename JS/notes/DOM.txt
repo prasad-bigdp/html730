@@ -24,4 +24,12 @@ DOM:
 
        v. querySelectorAll('query') : it is used to select all elements based on query
 
-       
+  DOM Manipulation: we can manipulate existing DOM elements using following properties
+      i. textContent : it is used to get data inside the element
+      ii. innerText : it is used to get the data inside the element but it also observes CSS, so if element is not visible , it cannot take value
+      iii. innerHTML : it is used to manipulate HTML code into the element
+      iv. style : it is used to change the style of an element
+      v. value : it is used to manipulate value of input elements
+      vi. classList: it is used to add or remove or toggle the class names
+
+  
