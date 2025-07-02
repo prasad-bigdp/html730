@@ -37,9 +37,12 @@ function createMovies ()
 {
     movies.forEach(function (ele,ind)
     {
-        
+        const para = document.createElement('p');//<p></p>
+        para.textContent = ele.Title;
+        mainEle.appendChild(para)
     })
 }
+createMovies()
 
 
 

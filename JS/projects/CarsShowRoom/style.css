@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+#cars{
+    max-width: 1280px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+#cars>div{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 30px green;
+
+}
