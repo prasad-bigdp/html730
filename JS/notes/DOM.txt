@@ -32,4 +32,10 @@ DOM:
       v. value : it is used to manipulate value of input elements
       vi. classList: it is used to add or remove or toggle the class names
 
+  DOM creation : we can even create DOM elements using  'createElement'
+     document.createElement('elementName')
+  But created element needs to be added to existing HTML using  append or appendChild
+     element.append(new elements)   // used for adding multiple elements
+     element.appendChild(new element) // used for adding single element
+
   
