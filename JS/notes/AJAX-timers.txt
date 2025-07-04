@@ -20,7 +20,7 @@ i. setTimeout : it is used to delay the execution of a function to a particular 
   setTimeout(function,time)
   setTimeout(function ()
 {
-    console.log("hello world")
+    console.log("hell world")
 }, 1000)
 
 ii. setInterval : it is used to repeat the execution of a function after each interval of time(in milliseconds)
