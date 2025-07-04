@@ -1,0 +1,33 @@
+Javascript allows events(user actions) to trigger particular function. There are different ways of adding an event to html elements
+    i. event handlers: These are properties of HTML elements directly can be added in HTML like onclick
+       <h1 onclick="fun()">click me</h1>
+       if we click h1 , it calls fun function
+
+    ii. event Listener: eventListeners allows you to add or remove an event and allows us to add or remove multiple triggers to an element. it takes two arguments (event name,callback function).
+       const btn = document.getElementById("btn");
+btn.addEventListener('click', display)
+
+   Event Listener can handle multiple functions on a single event and also can remove event when it is necessary
+
+There are different types of events in JS such as
+    i. mouse events : These events are triggered by user's action using mouse
+    eg: mouseover,mouseout,click,dblclick,mouseup,mousedown
+    ii. keyboard events: These events are triggered by users's action using keyboard .
+    eg:keypress, keyup,keydown .
+    'keypress' is deprecated
+    iii. form events: These events are triggered by user's actions using form elements like input data, select a value, change a value or submit the form etc..,
+    iv. window events: These events are general events such as  page loading, page unloading, resize the page, scroll the page
+    eg: resize, load,DOMcontentLoaded,abort,scroll
+
+
+    Event Propogation: Event Propogation describes the order in ehich events are triggered and handled in the DOM. There are two types of event Propogation such as
+      a. bubbling
+      b. capturing
+
+   a. bubbling : Bubbling is the default order of events . it executes events from innermost element to outermost element
+
+   b. capturing Here usually, event starts from root element(document) and propogates to the targeted element. To achieve this, we need to make third parameter of addEventListener as 'true'
+
+   we use this in real time scenerios like "event Delegation" . Event Delegation is a design pattern where instead of calling each individual item we call its parent
+
+   

@@ -1,0 +1,33 @@
+AJAX (Asynchronous Javascript): it is used to create dynamic websites and allows you to make change only to partcular portion of web pages. we can even send request to server and receive the data from server without refereshing the page
+   main features of AJAX:
+     i. Asynchronous communication: it allows communication between client and server
+     ii. load specific part: it loads only specific part of web page without refereshing whole page
+
+How AJAX Works?
+   i. Request creation
+   ii. Request Sending
+   iii. Server Processing
+   iv. Server Data Receiving
+
+
+To understand AJAX, we need to understand timers and promises.
+Timers: Timers are the default methods provided by Browser. There are two methods to provides AJAX timers such as
+  i. setTimeout
+  ii. setInterval
+
+
+i. setTimeout : it is used to delay the execution of a function to a particular time(in seconds or milli seconds)
+  setTimeout(function,time)
+  setTimeout(function ()
+{
+    console.log("hello world")
+}, 1000)
+
+ii. setInterval : it is used to repeat the execution of a function after each interval of time(in milliseconds)
+setInterval(function,time)
+setInterval(function ()
+{
+    console.log("hello world")
+}, 1000)
+
+we can stop the setTimeout or setInterval using clearTimeOut or clearInterval
