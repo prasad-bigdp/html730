@@ -17,7 +17,7 @@ How to start git?
 
    4.  git commit -m "message" --> it will save the code into local repository(folder) . it is like final version
 
-   for first time, enter following
+   --for first time, enter following
    git config --global user.email "youremailid"
    git config --global user.name "yourusername"
 
