@@ -1,5 +1,5 @@
 GIT:
-  GIT is a distributed version control system. it is developed and maintained by linus torvalds at oracle systems.
+  GIT is a distributed version control system. it is deveoped and maintained by linus torvalds at oracle systems.
 
 download & install git :
 https://git-scm.com/downloads
