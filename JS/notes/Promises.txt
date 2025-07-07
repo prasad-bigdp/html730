@@ -1,0 +1,32 @@
+Promises:  Promise is an object which describes an eventual completion of Asynchronous Operation
+ Promises results in server request , timers or any operation that takes some time.
+ Before Promises, it is handled by callbacks and it creates a probelm callback hell or pyramid of DOOM
+
+//backend
+let p = new Promise(function (resolve, reject) 
+{
+    if (mood = "good")
+    {
+        setTimeout(() => resolve("take 1 lakh"), 2000) 
+    }
+    else
+    {
+        setTimeout(() => reject("I will not give"), 2000) 
+    }
+})
+console.log(p)
+//frontend
+p
+    .then((res) => console.log(res))
+    .catch((err) => console.log(err));
+
+
+sometimes, Promises can combine the values using Promise.all(promises,promises)
+
+one Promise value can lead to another Promise called "Promise chaining"
+
+API : Application Programming Interface
+   It is used to connect client to server and used to request the data or post the data to server.
+
+Most used API in web developement is REST API(Representational state Transfer ) which results data in JSON(Javascript object notation) format
+we use fetch method provided by Browsers and provide them a link(endpoint) which contains JSON data.
