@@ -30,3 +30,15 @@ API : Application Programming Interface
 
 Most used API in web developement is REST API(Representational state Transfer ) which results data in JSON(Javascript object notation) format
 we use fetch method provided by Browsers and provide them a link(endpoint) which contains JSON data.
+
+endpoint(url) will have JSON data like
+https://dummyjson.com/quotes/random
+
+we can use fetch to get it
+fetch(endpoint)
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+GEMINI AI API 
+fakestoreapi
+dummyjson
+tmdb,omdb
+openweather
+random quote api, random joke api
+random.me/api
+pokeapi
+https://publicapis.dev/
