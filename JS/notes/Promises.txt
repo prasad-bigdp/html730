@@ -37,6 +37,31 @@ https://dummyjson.com/quotes/random
 we can use fetch to get it
 fetch(endpoint)
 
+basic syntax for fetch execution
+   fetch(endpoint)
+     .then((res)=>res.json())
+     .then((data)=>console.log(data))
+     .catch((err)=>console.log(err))
+
+Async Await : Async await is another way of writing asynchronous code. fetch returns promise which can be resolved/handled by using then and catch but instead we can also use modern simple way, Async - Await
+ async function functionName(){
+      const res = await fetch(endpoint)
+      const data = await res.json()
+      console.log(data);
+       }
+In Promises , error block is available but in async await you should use try catch block  
+
+ async function functionName(){
+      try{
+        const res = await fetch(endpoint)
+      const data = await res.json()
+      console.log(data);
+      }
+      catch(err){
+        console.log(err)
+      }
+       }
+
 
 
 
