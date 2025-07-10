@@ -1,0 +1,51 @@
+ES6 : ECMASCRIPT decides the standards and updates of all scripting languages including Javascript.ES6 version released in 2015 and brought lot of new features to JAvascript such as
+arrow functions, template literals, default parameters, rest and spread operators, array and object descturing, ES6 modules,OOP
+
+Array and Object destructuring:
+   Array contains lot of elements represented by index , what if we want to separate array elements. ES6 allows us to that.
+   // array destructuring
+let arr = [5, 6, 7];
+let [a, b, c] = arr;
+// let x = arr[0]
+console.log(a, b, c, arr);
+   Objects contains key and values as properties. we can separate them as a copy using object destructuring
+   // object destructuring
+let obj = {
+    name: "shekhar",
+    age: 55
+}
+console.log(obj.name);
+let { age } = obj;
+// let age = obj.age
+console.log(age);
+
+   Rest and Spread operators:
+   Rest operator is denoted by three dots and is used to represented rest of the parameters. it is always last value in receiving parameters.
+   // rest operator
+function sum (a, ...b)
+{
+    console.log(a,b) //5   [4,3,2,1]
+}
+sum(5, 4, 3, 2, 1);
+let [p, q, ...r] = [1, 2, 3, 4, 5, 6];
+spread operator is used to separate or spread the values of array. it is also dentoted by three dots.
+
+ let c = [...[1, 2], ...[3, 4]];
+    console.log(c)
+
+OOP: it is a a programming technique called Object Oriented Programming.Here, objects are created by using  a template called 'class'. objects are physical entities that contains properties and methods.
+   class a template or blueprint to create objects. it is a collection of objects
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
