@@ -35,6 +35,62 @@ spread operator is used to separate or spread the values of array. it is also de
 
 OOP: it is a a programming technique called Object Oriented Programming.Here, objects are created by using  a template called 'class'. objects are physical entities that contains properties and methods.
    class a template or blueprint to create objects. it is a collection of objects
+   class classname{
+        property1;property2;
+        constructor(a,b){
+         this.property1= a;
+         this.property2 =b;
+        }
+        method1(){
+         //body
+        }
+   }
+   let obj = new classname(value1,value2)
+
+   Inheritance : Inheritance means aquaring properties from one class to another class. The class that receives is called child class and the class that sends the data is called parent class
+   if we create an object in child class, it also contains properties of parent class
+   If child class constructor is invoked, we have to call parent class constructor first using super() methods . we use 'extends' keyword for inheritance
+class Human
+{
+    name;
+    constructor(n)
+    {
+        this.name = n;
+    }
+    walk () { console.log(this.name + " is walking ") }
+    eat () { console.log(this.name + "is eating") }
+}
+class Student extends Human
+{
+    id; marks;
+    constructor(n,id,m)
+    {
+        super(n)
+        this.id = id;
+        this.marks = m;
+    }
+}
+let x = new Student("raj", 121, 95);
+x.walk()
+
+
+
+Modules:  JS modules are a way to organize code into reusable and self contained scripts. JS modules are the files that contains JS code which can be imported or exported from or to another files
+   In olden times, we used to do this by using common JS module system but ES6 proposes simple ES6 module system with import and export keywords
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
 
 

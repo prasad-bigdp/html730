@@ -1,0 +1,15 @@
+complete Browser and JS engine is actually managed a single object called "window"
+
+Most used features are:
+location:  it contains current url details such as query parameters, reload, href etc..,
+
+Storage: Browsers can store the data using local and session storages.localStorage will not be deleted even after the browser closed but sessionStorage will be cleared out once browser closed
+
+localStorage.setItem("itemname","value")
+localStorage.removeItem("itemname");
+localStorage.clear()
+
+cookies are the small text files that tracks user interaction of websites by storing session id, preferences etc..,
+
+
+

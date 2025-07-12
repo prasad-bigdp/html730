@@ -42,3 +42,42 @@ let apple = new Fruit("sweet","red","round");
 let banana = new Fruit("sweet","yellow","cylinder");
 console.log(apple);
 apple.printData()
+
+
+class Human
+{
+    name;
+    constructor(n)
+    {
+        this.name = n;
+    }
+    walk () { console.log(this.name + " is walking ") }
+    eat () { console.log(this.name + "is eating") }
+}
+class Student extends Human
+{
+    id; marks;
+    constructor(n,id,m)
+    {
+        super(n)
+        this.id = id;
+        this.marks = m;
+    }
+}
+let x = new Student("raj", 121, 95);
+function add(a, b) {
+	return a + b
+}
+export default add; //default export
+export { sum, apple, banana, obj, arr }
+//named export
+
+
+
+
+
+
+
+
+
+
